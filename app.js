@@ -994,7 +994,7 @@ if (openChatBtn) openChatBtn.onclick = function () {
   window.zESettings = { webWidget: { chat: { connectOnPageLoad: false } } };
   const script = document.createElement("script");
   script.id = "ze-snippet";
-  script.src = "https://static.zdassets.com/ekr/snippet.js?key=1f7b1b1f-ba1a-4b16-a2cc-06a3bf2e4fd1";
+  script.src = "https://static.zdassets.com/ekr/snippet.js?key=a0a17d25-2ced-4090-8a66-e89bf3fa1b22";
   script.onload = () => { button.hidden = true; window.zE("webWidget", "open"); };
   script.onerror = () => { button.disabled = false; button.title = "Chat belum tersedia. Coba lagi."; };
   document.body.appendChild(script);
